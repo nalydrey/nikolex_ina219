@@ -1,0 +1,25 @@
+/*
+ * ina219_registers.hpp
+ *
+ *  Created on: Sep 29, 2025
+ *      Author: Oleksiy
+ */
+
+#ifndef NIKOLEX_INA219_INA219_REGISTERS_HPP_
+#define NIKOLEX_INA219_INA219_REGISTERS_HPP_
+
+namespace nikolex::ina219 {
+
+	enum REGISTER {
+		CONFIG_REGISTER,
+		SHUNT_VOLTAGE_REGISTER,
+		BUS_VOLTAGE_REGISTER,
+		POWER_REGISTER,
+		CURRENT_REGISTER,
+		CALIBRATION_REGISTER
+	};
+}
+
+
+
+#endif /* NIKOLEX_INA219_INA219_REGISTERS_HPP_ */
